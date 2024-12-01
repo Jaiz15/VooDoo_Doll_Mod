@@ -19,7 +19,7 @@ public class CrispyMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		FabricDefaultAttributeRegistry.register(ModEntities.DOLL, VoodooDollEntity.createMobAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.DOLL, VoodooDollEntity.createVoodooAttributes());
 
 		LOGGER.info("Hello Fabric world!");
 	}
